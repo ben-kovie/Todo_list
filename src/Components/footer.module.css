@@ -7,8 +7,24 @@
   width: 100%;
   background-color: rgb(73, 73, 245);
   padding: 10px;
+  color: white;
+}
+
+/* Make footer font-size adjust on smaller screens */
+@media (max-width: 600px) {
+  .footer {
+    font-size: 1.1em;
+    padding: 8px;
+  }
 }
 
 .items {
   margin: 50px;
+}
+
+/* Reduce margin on smaller screens for better space usage */
+@media (max-width: 600px) {
+  .items {
+    margin: 20px;
+  }
 }
