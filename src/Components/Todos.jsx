@@ -22,7 +22,7 @@ export default function Todos({ items, todoList, setTodoList }) {
         </span>
         <span>
           <button className={styles.deleteButton} onClick={HandleDelete}>
-            x
+            Delete
           </button>
         </span>
       </div>
